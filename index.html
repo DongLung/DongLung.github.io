@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local Gmail Archive 是個人使用的本機郵件保存工具。">
+  <title>Local Gmail Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Local Gmail Archive</a>
+      <nav aria-label="主要導覽">
+        <a href="index.html" aria-current="page">首頁</a>
+        <a href="privacy.html">隱私權說明</a>
+        <a href="terms.html">服務條款</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">個人郵件保存工具</p>
+    <h1>讓自己的郵件紀錄留在自己的電腦。</h1>
+    <p class="lead">Local Gmail Archive 透過 Gmail 唯讀授權，協助擁有者在 Mac 上保存及整理自己授權的郵件。</p>
+
+    <section class="panel" aria-labelledby="status">
+      <h2 id="status">目前進度</h2>
+      <p>目前已完成有限的 Gmail API 背景讀取試驗。近一個月的全量匯入、完整新增郵件驗收、附件全文搜尋與 Obsidian 整合仍在建置中。</p>
+      <p>郵件由本機程式直接向 Gmail API 讀取，不需 AI 服務即可收信。雲端 AI 郵件整理目前尚未啟用。</p>
+    </section>
+
+    <h2>只讀取本人授權的信箱</h2>
+    <p>本工具只請求 Gmail 唯讀權限。它不會透過這項授權寄送、移動或刪除郵件；程式附件也不會執行。</p>
+
+    <h2>資料處理方式</h2>
+    <p>已擷取的郵件快照與同步資料保存在擁有者的 Mac。網站只提供產品與資料處理說明，不承載信件或附件。詳情請閱讀<a href="privacy.html">隱私權說明</a>。</p>
+  </main>
+  <footer><div class="wrap">Local Gmail Archive · 個人自用專案 · 更新日期：2026-10-09</div></footer>
+</body>
+</html>
