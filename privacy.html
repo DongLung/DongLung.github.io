@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local Gmail Archive 的資料收集、保存與使用方式。">
+  <title>隱私權說明 · Local Gmail Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Local Gmail Archive</a>
+      <nav aria-label="主要導覽">
+        <a href="index.html">首頁</a>
+        <a href="privacy.html" aria-current="page">隱私權說明</a>
+        <a href="terms.html">服務條款</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">資料處理</p>
+    <h1>隱私權說明</h1>
+    <p>更新日期：2026-10-09</p>
+
+    <h2>使用範圍</h2>
+    <p>Local Gmail Archive 是由擁有者本人使用的本機郵件整理工具，只連接使用者明確授權的 Gmail 帳號。</p>
+
+    <h2>讀取的資料</h2>
+    <p>目前 Gmail API 連線使用 <code>gmail.readonly</code>。在有限試驗中，本機程式讀取帳號識別資訊與郵件中繼資料，並保存選定郵件的原始 EML 快照。快照可能包含寄件者、收件者、時間、主旨、正文、標籤及附件內容。程式不執行附件中的程式碼。</p>
+
+    <h2>保存與使用</h2>
+    <p>試驗取得的原始郵件與同步資料保存在擁有者的 Mac；OAuth 憑證保存在本機受限目錄。這個公開網站只提供說明，不會接收或託管郵件、附件或 OAuth 憑證。</p>
+    <p>目前郵件全文搜尋、附件全文索引、近月全量同步、永久刪除偵測與 Obsidian 整合尚未完成。有限試驗也不代表每一封信都已保存。使用者可以自行管理或刪除本機資料；撤銷 Google 授權不會自動刪除已保存的本機郵件。</p>
+
+    <h2>雲端 AI</h2>
+    <p>目前沒有把郵件內容送往雲端 AI 處理。若日後啟用郵件 AI 分析，會先確認供應商與資料處理方式，並更新本說明。</p>
+
+    <h2>授權與控制</h2>
+    <p>使用者可以在 Google 帳戶的第三方連線設定中撤銷 Gmail 授權。撤銷後本工具無法再讀取該信箱；本機既有副本仍由使用者管理。</p>
+  </main>
+  <footer><div class="wrap"><a href="index.html">首頁</a> · Local Gmail Archive · 更新日期：2026-10-09</div></footer>
+</body>
+</html>
